@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Golf Genius Side-by-Side</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      height: 100vh;
+    }
+    iframe {
+      width: 50%;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://www.golfgenius.com/leagues/11842474911878656853/rounds/11842482589233361834/tvtournaments"></iframe>
+  <iframe src="https://www.golfgenius.com/leagues/11842493965527987030/rounds/11842504869644645298/tvtournaments"></iframe>
+</body>
+</html>
