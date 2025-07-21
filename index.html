@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Golf Genius TV Side-by-Side</title>
+  <title>Golf Genius TV Side-by-Side Fullscreen</title>
   <style>
     html, body {
       margin: 0;
@@ -26,28 +26,35 @@
       width: 100%;
       height: 100%;
       border: none;
-      zoom: 0.3; /* Shrink content inside iframe */
+      zoom: 0.8;
+      allowfullscreen: true;
     }
 
     @media (max-width: 1200px) {
       iframe {
-        zoom: 0.7;
+        zoom: 0.4;
       }
     }
 
     @media (max-width: 800px) {
       iframe {
-        zoom: 0.6;
+        zoom: 0.4;
       }
     }
   </style>
 </head>
 <body>
   <div class="iframe-wrapper">
-    <iframe src="https://www.golfgenius.com/leagues/11842474911878656853/rounds/11842482589233361834/tvtournaments"></iframe>
+    <iframe 
+      src="https://www.golfgenius.com/leagues/11842474911878656853/rounds/11842482589233361834/tvtournaments"
+      allowfullscreen
+    ></iframe>
   </div>
   <div class="iframe-wrapper">
-    <iframe src="https://www.golfgenius.com/leagues/11842493965527987030/rounds/11842504869644645298/tvtournaments"></iframe>
+    <iframe 
+      src="https://www.golfgenius.com/leagues/11842493965527987030/rounds/11842504869644645298/tvtournaments"
+      allowfullscreen
+    ></iframe>
   </div>
 </body>
 </html>
